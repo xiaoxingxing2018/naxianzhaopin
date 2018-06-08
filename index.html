@@ -1,0 +1,398 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>纳贤招聘</title>
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+<link rel="stylesheet" href="dist/pageSwitch.min.css">
+
+</head>
+
+<body>
+<div class="topbg">
+	<p class="top gWidth">
+    	<a href="#">手机站</a> 丨 <a href="#">微信</a>
+        <a href="zc.html" class="dl">登录/注册</a> 丨 <a href="grb.html">个人版</a> 丨 <a href="qyb.html">企业版</a>
+    </p>
+</div>
+
+<div class="logo gWidth">
+	<img src="img/logo (1).png">
+    <ul class="fl">
+    	<li><a href="index.html">首页</a></li>
+    	<li><a href="zpxx.html">招聘信息</a></li>
+    	<li><a href="jlzx.html">简历中心</a></li>
+    	<li><a href="zpzs.html">作品展示</a></li>
+    </ul>
+    <a  class="iconfont fr city" id="city" onclick="a()"><span>输入城市</span>　</a><div class="clear"></div>
+    <div class="xzcs" id="xzcs">
+    	<p>输入城市</p>
+        <form>
+        <input type="text" value="请输入汉字/拼音查找" id="wenben" onclick="b()"><input type="submit" value="确定" id="queding" onclick="c()">
+        </form>
+    </div>
+</div>
+
+<div id="container">
+	<div class="sections">
+		<div class="section" id="section0"></div>
+		<div class="section" id="section1"></div>
+		<div class="section" id="section2"></div>
+	</div>
+</div>
+
+
+<div class="contentbg">
+<div class="content gWidth">
+	<div class="dlk fl">
+    	<h2>登录</h2>
+        <a class="dltx" ><img src="img/dl.png"></a>
+        <p>Hi！您好<br>请您先进行登录或注册</p>
+        <p><a onclick="dl()">登录</a><a  href="zc.html">注册</a></p>
+</div>
+    
+<script src="js/js.js"></script>
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="dist/pageSwitch.min.js"></script>
+<script>
+	$("#container").PageSwitch({
+		direction:'horizontal',
+		easing:'ease-in',
+		duration:1000,
+		autoPlay:true,
+		loop:'false'
+	});
+	
+	
+function dl(){
+var o = document.getElementById("dl");
+	
+	o.style.display = "block"
+	}
+</script>
+    
+    <div class="ssk fr">
+    	<form>
+			<select>
+				<option>职业</option>
+				<option>公司</option>
+            </select><!--
+            --><input type="text" value="请输入你要找的职位或公司名称" class="text"><!--
+            --><input type="submit" value="查询" class="cx">
+            <p class="dingwei" id="dw"><span>丨</span>　所在城市</p>
+        </form>
+        <p>热门职业：<a href="zpxx.html">php</a><a href="zpxx.html">平面设计</a><a href="zpxx.html">web前端</a><a href="zpxx.html">UI设计</a><a href="zpxx.html">客服</a><a href="zpxx.html">网店运营</a><a href="zpxx.html">网页设计师</a><a href="zpxx.html">网站优化</a></p>
+        <div class="zhiwei">
+        	<dl>
+            	<dt>美工/设计师</dt>
+                <dd><a href="zpxx.html">淘宝美工(14,101)</a></dd>
+                <dd><a href="zpxx.html">UI设计师(22,211)</a></dd>
+                <dd><a href="zpxx.html">网页设计师(43,541)</a></dd>
+            </dl>
+            
+        	<dl>
+            	<dt>运营/客服</dt>
+                <dd><a href="zpxx.html">网站优化(63,350)</a></dd>
+                <dd><a href="zpxx.html">网站推广(28,904)</a></dd>
+                <dd><a href="zpxx.html">客服人员(7,714)</a></dd>
+            </dl>
+            
+        	<dl>
+            	<dt>网站工程师</dt>
+                <dd><a href="zpxx.html">前端工程师(7,814)</a></dd>
+                <dd><a href="zpxx.html">PHP工程师(13,300)</a></dd>
+                <dd><a href="zpxx.html">网站维护(14,129)</a></dd>
+            </dl>
+            
+        	<dl>
+            	<dt>店铺</dt>
+                <dd><a href="zpxx.html">店铺装修(4,889)</a></dd>
+                <dd><a href="zpxx.html">网店运营(97,842)</a></dd>
+                <dd><a href="zpxx.html">网店优化推广(3,565)</a></dd>
+            </dl>
+            
+        </div>
+    </div>
+</div>
+
+<div class="banner1 gWidth">
+	<img src="img/bannerxiao.png">
+</div>
+
+
+</div>
+
+<div class="content2 gWidth">
+	<div class="content2-left fl">
+    	<h2 class="bt-left">美工/设计师</h2>
+        <p><a href="zpxx.html">淘宝美工</a><a href="zpxx.html" class="zw">UI设计师</a><br><a href="zpxx.html">网页设计师</a><a href="zpxx.html" class="zw">平面设计</a><br><a href="zpxx.html">广告创意</a><a href="zpxx.html" class="zw">交互设计</a></p>
+        <a href="zpxx.html">更多职位></a>
+        <i class="iconfont">&#xe6b1;</i>
+    </div>
+    <div class="content2-right fr">
+    	<div class="bt"><h2 class="bt-right">美工招聘</h2></div>
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">网站设计师<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">1年以上工作经验</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">淘宝美工<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">应届生</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">网站设计师<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">2年以上工作经验</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">UI设计师<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">应届生</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj noborder">
+        	<p class="gz">广告创意<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">1年以上工作经验</p>
+        </div></a>
+
+    </div>
+</div>
+
+<div class="content2bg"><div class="content2 gWidth wzgcsbg" >
+	<div class="content2-left fl wzgcs">
+    	<h2 class="bt-left">网站工程师</h2>
+        <p><a href="zpxx.html">前端工程师</a><a href="zpxx.html" class="zw">网站维护</a><br><a href="zpxx.html">PHP工程师</a><a href="zpxx.html" class="zw">后台开发</a><br><a href="zpxx.html">移动工程师</a><a href="zpxx.html" class="zw"></a></p>
+        <a href="zpxx.html">更多职位></a>
+        <i class="iconfont">&#xe631;</i>
+    </div>
+    <div class="content2-right fr">
+    	<div class="bt"><h2 class="bt-right">网站工程师招聘</h2></div>
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">前端工程师<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">1年以上工作经验</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">PHP工程师<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">应届生</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">前端工程师<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">2年以上工作经验</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">PHP工程师<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">应届生</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj noborder">
+        	<p class="gz">网站维护<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">1年以上工作经验</p>
+        </div></a>
+
+    </div>
+</div></div>
+
+<div class="content2 gWidth yykfbg">
+	<div class="content2-left fl yykf">
+    	<h2 class="bt-left">运营/客服</h2>
+        <p><a href="zpxx.html">网站运营</a><a href="zpxx.html" class="zw">网站推广</a><br><a href="zpxx.html">在线客服</a><a href="zpxx.html" class="zw">售后客服</a><br><a href="zpxx.html">服务专员</a><a href="zpxx.html" class="zw">客户关系</a></p>
+        <a href="zpxx.html">更多职位></a>
+        <i class="iconfont">&#xe70d;</i>
+    </div>
+    <div class="content2-right fr">
+    	<div class="bt"><h2 class="bt-right">运营/客服招聘</h2></div>
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">网站运营专员<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">1年以上工作经验</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">淘宝客服<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">应届生</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">网站客服<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">2年以上工作经验</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">淘宝店运营<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">应届生</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj noborder">
+        	<p class="gz">网站运营<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">1年以上工作经验</p>
+        </div></a>
+
+    </div>
+</div>
+
+<div class="content2bg"><div class="content2 gWidth dpbg">
+	<div class="content2-left fl dp">
+    	<h2 class="bt-left">店铺</h2>
+        <p><a href="zpxx.html">淘宝店装修</a><a href="zpxx.html" class="zw">店铺优化</a><br><a href="zpxx.html">店铺推广</a><a href="zpxx.html" class="zw">店铺运营</a><br><a href="zpxx.html">店铺客服</a><a href="zpxx.html" class="zw"></a></p>
+        <a href="zpxx.html">更多职位></a>
+        <i class="iconfont">&#xe6b1;</i>
+    </div>
+    <div class="content2-right fr">
+    	<div class="bt"><h2 class="bt-right">网站工程师招聘</h2></div>
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">店铺维护推广<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">1年以上工作经验</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">店铺优化<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">应届生</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">淘宝店铺装修<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">2年以上工作经验</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj">
+        	<p class="gz">店铺运营<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">应届生</p>
+        </div></a>
+
+		<a href="zpxq.html"><div class="gzjj noborder">
+        	<p class="gz">店铺在线客服<br><span>[河北/保定] 大专及以上</span></p>
+            <span>3000-5000</span>
+            <p class="gs">保定双向广告有限公司<br><span>民营/私企   丨   100-200人   丨   广告</span></p>
+            <p class="jy">1年以上工作经验</p>
+        </div></a>
+
+    </div>
+</div></div>
+
+<div class="yqlj gWidth">
+	<div class="bt-yqlj"><h2>友情链接</h2></div>
+    <div class="content-yqlj">
+    	<ul>
+        	<li><a href="#">二手设备出售</a></li>
+        	<li><a href="#">保定房产信息网</a></li>
+        	<li><a href="#">保定企业名录</a></li>
+        	<li><a href="#">策划书</a></li>
+        </ul>
+    	<ul>
+        	<li><a href="#">二手设备出售</a></li>
+        	<li><a href="#">保定房产信息网</a></li>
+        	<li><a href="#">保定企业名录</a></li>
+        	<li><a href="#">策划书</a></li>
+        </ul>
+    	<ul>
+        	<li><a href="#">二手设备出售</a></li>
+        	<li><a href="#">保定房产信息网</a></li>
+        	<li><a href="#">保定企业名录</a></li>
+        	<li><a href="#">策划书</a></li>
+        </ul>
+    	<ul>
+        	<li><a href="#">二手设备出售</a></li>
+        	<li><a href="#">保定房产信息网</a></li>
+        	<li><a href="#">保定企业名录</a></li>
+        	<li><a href="#">策划书</a></li>
+        </ul>
+    	<ul>
+        	<li><a href="#">二手设备出售</a></li>
+        	<li><a href="#">保定房产信息网</a></li>
+        	<li><a href="#">保定企业名录</a></li>
+        	<li><a href="#">策划书</a></li>
+        </ul>
+        <ul>
+        	<li><a href="#">二手设备出售</a></li>
+        	<li><a href="#">保定房产信息网</a></li>
+        	<li><a href="#">保定企业名录</a></li>
+        	<li><a href="#">策划书</a></li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="bottom1bg">
+	<div class="bottom1 gWidth">
+    	<p class="fl">
+        	<i class="iconfont">&#xe639;</i><br>网站客服热线:<br><span>0312-1111111</span>
+        </p>
+        <div class="fr">
+            <dl>
+            	<dt class="iconfont"><span>&#xe651;</span>关于我们</dt>
+                <dd><a href="#">关于我们</a></dd>
+                <dd><a href="#">网站简介</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+            </dl>
+            
+            <dl>
+            	<dt class="iconfont"><span>&#xe609;</span>找工作</dt>
+                <dd><a href="zpxx.html">搜索职位</a></dd>
+                <dd><a href="jlfb.html">创建简历</a></dd>
+                <dd><a href="zpxx.html">全部招聘</a></dd>
+            </dl>
+            
+            <dl>
+            	<dt class="iconfont"><span>&#xe601;</span>招人才</dt>
+                <dd><a href="qyb.html">发布职位</a></dd>
+                <dd><a href="qyb.html">招聘职位</a></dd>
+                <dd><a href="qyb.html">招聘管理</a></dd>
+            </dl>
+            
+            <dl>
+            	<dt class="iconfont"><span>&#x3459;</span>帮助</dt>
+                <dd><a href="#">网站声明</a></dd>
+                <dd><a href="#">使用条款</a></dd>
+                <dd><a href="#">安全中心</a></dd>
+            </dl>
+            
+        </div>
+    </div>
+</div>
+
+<p class="bottom2">ICP经营许可证编号 京ICP证060405号 京ICP备10012705号-12 京公网安备11010502027237号 Copyright © 北京五八信息技术有限公司 版权所有</p>
+
+</body>
+</html>
